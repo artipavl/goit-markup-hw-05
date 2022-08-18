@@ -350,10 +350,36 @@ p {
   display: flex;
 }
 
+.examples-items {
+  position: relative;
+}
+
 .examples-items > img {
   display: block;
 }
 
+.example-box {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+
+  background-color: rgba(47, 48, 58, 0.8);;
+
+}
+
+.example-text {
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+
+}
 /* Наша команда */
 .team {
   background-color: var(--primary-bg-color);
