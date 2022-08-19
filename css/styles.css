@@ -117,8 +117,7 @@ p {
   letter-spacing: 0.03em;
   cursor: pointer;
 
-  transition: color 250ms var(--primary-animation),
-    background-color 250ms var(--primary-animation),
+  transition: color 250ms var(--primary-animation), background-color 250ms var(--primary-animation),
     box-shadow 250ms var(--primary-animation);
 }
 
@@ -316,8 +315,7 @@ p {
   text-align: center;
   letter-spacing: 0.06em;
 
-  transition: color 250ms var(--primary-animation),
-    background-color 250ms var(--primary-animation);
+  transition: color 250ms var(--primary-animation), background-color 250ms var(--primary-animation);
 }
 
 .hero-button:hover,
@@ -466,8 +464,7 @@ p {
   border-radius: 50%;
   color: var(--primary-icon-color);
 
-  transition: color 250ms var(--primary-animation),
-    background-color 250ms var(--primary-animation);
+  transition: color 250ms var(--primary-animation), background-color 250ms var(--primary-animation);
 }
 
 .social-linc:hover,
@@ -497,8 +494,7 @@ p {
 
   color: var(--primary-icon-color);
 
-  transition: color 250ms var(--primary-animation),
-    background-color 250ms var(--primary-animation);
+  transition: color 250ms var(--primary-animation), background-color 250ms var(--primary-animation);
 }
 
 .company-linc:hover,
@@ -703,12 +699,13 @@ p {
 
   background-color: rgba(0, 0, 0, 0.2);
 
-  transition: opacity 250ms var(--primary-animation);
+  transition: opacity 250ms var(--primary-animation), visibility 25000ms var(--primary-animation);
 }
 
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
+  visibility: hidden;
 }
 
 .modal {
