@@ -564,12 +564,9 @@ p {
 
 .portfolio-overlay {
   position: absolute;
+  left: 0;
+  bottom: -100%;
 
-  transform: translate(0, 0);
-
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 63px;
